@@ -1,0 +1,29 @@
+# Данные и веса в git не кладём (лекция 4.4): архивы скачиваются с LMS
+*.zip
+*.part
+*.pt
+*.pth
+*.mp4
+case3/pages/
+case4/video/
+**/archive/
+**/runs/
+**/dz*_artifacts/
+
+# Служебное
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Материалы курса и личные конспекты: не часть сдачи
+*.html
+case1/case1.txt
+case1/CV_ДЗ1_Работаем_с_датасетом.ipynb
+**/Скринкаст_*.ipynb
+case4/04_Модуль_4_*.ipynb
+**/transcripts/
+case1/lessons/
+case1/colab/
+
+# Локальное окружение
+.venv/
