@@ -11,6 +11,9 @@ case4/video/
 **/dz*_artifacts/
 
 # Служебное
+# дубликаты ноутбуков при скачивании из Colab: «имя (1).ipynb»
+* ([0-9]).ipynb
+* ([0-9][0-9]).ipynb
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
@@ -21,6 +24,7 @@ case1/case1.txt
 case1/CV_ДЗ1_Работаем_с_датасетом.ipynb
 **/Скринкаст_*.ipynb
 case4/04_Модуль_4_*.ipynb
+case5/Аналитическая справка*.pdf
 **/transcripts/
 case1/lessons/
 case1/colab/
